@@ -63,8 +63,8 @@
           document.location = "pebblejs://close";
         });
         $("#b-submit").click(function() {
-          var return_to = "return_to" + encodeURIComponent(JSON.stringify(saveOptions()));
-          document.return_to = location;
+          var return_to = "pebblejs://close" + encodeURIComponent(JSON.stringify(saveOptions()));
+          document.location = location;
         });
       });
 
