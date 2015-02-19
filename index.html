@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Wrist D&aelig;mon Configuration</title>
+    <title>Wrist Daemon Configuration</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
@@ -63,8 +63,8 @@
           document.location = "pebblejs://close";
         });
         $("#b-submit").click(function() {
-          var location = "pebblejs://close#" + encodeURIComponent(JSON.stringify(saveOptions()));
-          document.location = location;
+          var return_to = "return_to" + encodeURIComponent(JSON.stringify(saveOptions()));
+          document.return_to = location;
         });
       });
 
