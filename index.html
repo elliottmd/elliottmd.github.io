@@ -31,8 +31,16 @@
 
       <div data-role="content">
         <div data-role="fieldcontain">
-          <label for="webList" style="display: block; padding-bottom: 0.5em; width: 100%;">Enter to do items separated by comma.</label>
-          <textarea cols="40" rows="8" name="searchingFor" id="searchingFor" style="color: #000; width: 100%;"></textarea>
+          <label for="alpha" style="display: block; padding-bottom: 0.5em; width: 100%;">Enter to do items separated by comma.</label>
+          <textarea cols="40" rows="8" name="alpha" id="alpha" style="color: #000; width: 100%;"></textarea>
+        </div>
+          <div data-role="fieldcontain">
+          <label for="beta" style="display: block; padding-bottom: 0.5em; width: 100%;">Enter to do items separated by comma.</label>
+          <textarea cols="40" rows="8" name="beta" id="beta" style="color: #000; width: 100%;"></textarea>
+        </div>
+          <div data-role="fieldcontain">
+          <label for="gamma" style="display: block; padding-bottom: 0.5em; width: 100%;">Enter to do items separated by comma.</label>
+          <textarea cols="40" rows="8" name="gamma" id="gamma" style="color: #000; width: 100%;"></textarea>
         </div>
 
         <div class="ui-body ui-body-b">
@@ -47,24 +55,20 @@
     <script>
       function saveOptions() {
         var options = {
-          'webList': $("#webList").val()
+            'alpha': $("#alpha").val(),
+            'beta': $("#beta").val(),
+            'gamma': $("#gamma").val()
         }
         return options;
       }
 
-      $(document).ready(function() {
-        var priorList = getURLVariable('webList');
-        priorList = decodeURI(priorList);
 
-        if (priorList) {
-          $('#webList').html(priorList);
-        }
+      $(document).ready(function() {
         $("#b-cancel").click(function() {
           document.location = "pebblejs://close";
         });
         $("#b-submit").click(function() {
-          var location = "pebblejs://close" + encodeURIComponent(JSON.stringify(saveOptions()));
-          document.location = location;
+            document.location = 'pebblejs://close#' + encodeURIComponent(JSON.stringify(options));
         });
       });
 
