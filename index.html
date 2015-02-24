@@ -62,12 +62,12 @@
         return options;
       }
 
-
       $(document).ready(function() {
         $("#b-cancel").click(function() {
           document.location = "pebblejs://close";
         });
         $("#b-submit").click(function() {
+            saveOptions();
             document.location = 'pebblejs://close#' + encodeURIComponent(JSON.stringify(options));
         });
       });
