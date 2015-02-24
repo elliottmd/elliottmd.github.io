@@ -67,8 +67,9 @@
           document.location = "pebblejs://close";
         });
         $("#b-submit").click(function() {
-            saveOptions();
-            document.location = 'pebblejs://close#' + encodeURIComponent(JSON.stringify(options));
+            var location = 'pebblejs://close#' + encodeURIComponent(JSON.stringify(SaveOptions()));
+            console.log(location);
+            document.location = location;
         });
       });
 
