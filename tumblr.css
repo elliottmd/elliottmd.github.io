@@ -693,6 +693,7 @@ text-decoration: none;
 				max-width: 600px;
                 color: #4C4C4C;
                 margin: 2em 60px 0 0;
+				padding-left 0;
             }
 
             #posts .post {
@@ -702,21 +703,6 @@ text-decoration: none;
                 padding: 0 0 45px 0;
             }
 
-{block:IfDisqusShortname}
-            #posts .post #disqus_thread {
-                border-top: 1px solid #E6E6E6;
-                margin: 20px 0 0 0;
-                padding: 25px 0 0 0;
-            }
-
-            #posts .post .caption a.disquscomments {
-                font-size: 12px;
-                font-family: 'Lato', sans-serif;
-                letter-spacing: 2px;
-                text-transform: uppercase;
-                -webkit-font-smoothing: subpixel-antialiased;
-            }
-{/block:IfDisqusShortname}
 
             .top.audio * {
                 width: 700px;
@@ -1005,6 +991,7 @@ text-decoration: none;
                 -webkit-font-smoothing: subpixel-antialiased;
                 margin: 1px 0 0 -3px;
                 overflow: hidden;
+				padding-left: 0;
             }
 
             .post_info li {
@@ -1051,6 +1038,7 @@ text-decoration: none;
             .post_controls {
                 list-style: none;
                 margin: -10px 15px 15px 0;
+				padding-left: 0;
             }
     
             /* requires high specificity */
