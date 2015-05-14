@@ -378,7 +378,7 @@ h6 {
   z-index: 3;
   position: absolute;
   margin-left: 28%;
-  font-size: 1vmax;
+  font-size: 1em;
   width: 70%;
   padding-bottom: 2%;
 }
