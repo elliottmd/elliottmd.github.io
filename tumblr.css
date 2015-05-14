@@ -1035,8 +1035,6 @@ h6 {
             /* Post controls */
 
             .post_controls {
-                border: 1px solid #e8e8e8;
-                border-radius: 3px;
                 list-style: none;
                 margin: -10px 15px 15px 0;
             }
@@ -1051,7 +1049,6 @@ h6 {
             }
 
             .post_controls li:first-child {
-                border-right: 1px solid #e8e8e8;
             }
 
             .post .post_info .post_controls li a,
