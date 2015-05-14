@@ -459,8 +459,15 @@ h6 {
   margin: 0 2% 0 0;
   border: solid #ff4800;
 }
+
+.page_nav:visited {
+  color: #fff;
+  background: #ff4800;
+  color: white;
+}
 .page_nav:hover {
   background: #fff;
+text-decoration: none;
   color: #ff4800;
 }
 .work {
