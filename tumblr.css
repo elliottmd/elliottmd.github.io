@@ -1117,7 +1117,7 @@ text-decoration: none;
                 list-style-type: none;
                 border-top: solid 1px #E6E6E6;
                 -webkit-font-smoothing: subpixel-antialiased !important;
-                margin: 40px auto auto auto;
+                margin: auto auto auto auto;
             }
 
             ol.notes li.note {
