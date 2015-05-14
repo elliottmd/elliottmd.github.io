@@ -984,8 +984,6 @@ text-decoration: none;
                 width: auto;
                 font-size: 12px;
                 font-family: 'Lato', sans-serif;
-                letter-spacing: 2px;
-                text-transform: uppercase;
                 list-style-type: none;
                 -webkit-font-smoothing: subpixel-antialiased;
                 margin: 1px 0 0 -3px;
@@ -1271,7 +1269,6 @@ text-decoration: none;
                 width: 700px;
                 color: #4C4C4C;
                 font-size: 12px;
-                font-family: 'Times New Roman', Times, serif;
                 letter-spacing: 2px;
                 text-transform: uppercase;
                 -webkit-font-smoothing: subpixel-antialiased;
@@ -1403,3 +1400,20 @@ text-decoration: none;
                 clear: both;
                 visibility: hidden;
             }
+
+.like { /* Make a parent element */
+    position: relative;
+}
+.like svg path { /* Select your color of choice */
+    fill: #ff4800; 
+}
+.like .like_button { /* Position like button above your custom one */
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+.like .like_button.liked { /* Keep the functionality active */
+    opacity: 1;
+}
+
+.reblog-button svg path { fill: #ff4800; }
