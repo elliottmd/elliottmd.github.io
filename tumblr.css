@@ -1048,7 +1048,12 @@ text-decoration: none;
             }
 		
 			#posted_time {
-				margin-top: 0px;
+				margin-top: 5px;
+				color: #eee;
+			}
+			
+			#posted_time:hover {
+				color: #ff4800;	
 			}
 
             .post_controls li:first-child {
