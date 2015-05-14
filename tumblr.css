@@ -525,14 +525,6 @@ h6 {
   opacity: 1;
 }
 
-            body {
-                -webkit-font-smoothing: antialiased;
-                font-size: 15px;
-                font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-                line-height: 24px;
-                margin: 0;
-                padding: 0;
-            }
 
             *:active, *:focus { outline-width: 0px; }
             img { max-width: 100% }
