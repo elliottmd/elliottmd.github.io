@@ -452,7 +452,7 @@ h6 {
 .project ul li {
   display: inline;
 }
-.page_nav {
+a.page_nav {
   color: #fff;
   background: #ff4800;
   padding: 0.5%;
@@ -460,12 +460,11 @@ h6 {
   border: solid #ff4800;
 }
 
-.page_nav:visited {
+a.page_nav:visited {
   color: #fff;
   background: #ff4800;
-  color: white;
 }
-.page_nav:hover {
+a.page_nav:hover {
   background: #fff;
 text-decoration: none;
   color: #ff4800;
