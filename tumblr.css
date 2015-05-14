@@ -1003,33 +1003,27 @@ text-decoration: none;
             }
 
             .post_info .timestamp {
-                color: #4c4c4c;
+                color: #eee;
                 padding: 0 2px 0 5px;
                 display: inline-block;
             }
 
             .post_info .timestamp:hover {
-                background: rgba(0,0,0,.08);
-            }
-
-            .post_info .timestamp:active {
-                background: rgba(0,0,0,.1);
+                background: #ff4800;
+				color: #fff;
             }
 
             .post_info .notecount {
-                color: #4c4c4c;
+                color: #eee;
                 padding: 0 2px 0 5px;
                 display: inline-block;
             }
 
             .post_info .notecount:hover {
-                background: rgba(0,0,0,.08);
+                background: #ff4800;
+				color: #fff;
             }
 
-            .post_info .notecount:active {
-                background: rgba(0,0,0,.1);
-            }
-            
             /* Post controls */
 
             .post_controls {
@@ -1049,11 +1043,6 @@ text-decoration: none;
 		
 			#posted_time {
 				margin-top: 5px;
-				color: #eee;
-			}
-			
-			#posted_time:hover {
-				color: #ff4800;	
 			}
 
             .post_controls li:first-child {
