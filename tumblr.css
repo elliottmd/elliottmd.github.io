@@ -216,7 +216,11 @@ color: #ff4800;
 }
 
 a, a:visited {
-color: #ea6209;	
+color: #ffa480;	
+}
+
+a:hover {
+text-decoration: underline;	
 }
 
 h1,
