@@ -711,6 +711,7 @@ h6 {
             }
 
             .top.media.photoset {
+				width 100%;
                 line-height: 0;
                 {block:IfShowImageShadows}
                     -webkit-box-shadow: none;
