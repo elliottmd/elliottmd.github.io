@@ -1003,25 +1003,27 @@ text-decoration: none;
             }
 
             .post_info .timestamp {
-                color: #eee;
-                padding: 0 2px 0 5px;
+                color: #aaa;
+                padding: 3px;
                 display: inline-block;
             }
 
             .post_info .timestamp:hover {
                 background: #ff4800;
 				color: #fff;
+				text-decoration: none;
             }
 
             .post_info .notecount {
-                color: #eee;
-                padding: 0 2px 0 5px;
+                color: #aaa;
+                padding: 3px;
                 display: inline-block;
             }
 
             .post_info .notecount:hover {
                 background: #ff4800;
 				color: #fff;
+				text-decoration: none;
             }
 
             /* Post controls */
@@ -1403,7 +1405,7 @@ text-decoration: none;
     position: relative;
 }
 .like svg path { /* Select your color of choice */
-    fill: #eee; 
+    fill: #aaa; 
 }
 .like:hover svg path { /* Select your color of choice */
     fill: #ff4800; 
@@ -1418,7 +1420,7 @@ text-decoration: none;
 }
 
 .reblog-button svg path { 
-	fill: #eee;
+	fill: #aaa;
   -webkit-transition: all 0.1s ease;
   -moz-transition: all 0.1s ease;
   -o-transition: all 0.1s ease;
