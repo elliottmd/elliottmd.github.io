@@ -1046,6 +1046,10 @@ text-decoration: none;
                 padding: 2px 15px;
                 height: 21px;
             }
+		
+			#posted_time {
+				margin-top: 0px;
+			}
 
             .post_controls li:first-child {
             }
