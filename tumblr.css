@@ -1405,6 +1405,9 @@ text-decoration: none;
     position: relative;
 }
 .like svg path { /* Select your color of choice */
+    fill: #eee; 
+}
+.like:hover svg path { /* Select your color of choice */
     fill: #ff4800; 
 }
 .like .like_button { /* Position like button above your custom one */
@@ -1416,4 +1419,5 @@ text-decoration: none;
     opacity: 1;
 }
 
-.reblog-button svg path { fill: #ff4800; }
+.reblog-button svg path { fill: #eee; }
+.reblog-button:hover svg path { fill: #ff4800; }
