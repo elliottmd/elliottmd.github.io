@@ -1419,5 +1419,14 @@ text-decoration: none;
     opacity: 1;
 }
 
-.reblog-button svg path { fill: #eee; }
-.reblog-button:hover svg path { fill: #ff4800; }
+.reblog-button svg path { 
+	fill: #eee;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  transition: all 0.1s ease;}
+.reblog-button:hover svg path { 
+	
+	fill: #ff4800;
+
+}
