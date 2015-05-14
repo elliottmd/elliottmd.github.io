@@ -210,6 +210,15 @@ img {
   border: solid #ff4800 0.2vw;
   color: #ff4800;
 }
+
+a, a:link {
+color: #ff4800;	
+}
+
+a, a:visited {
+color: #ea6209;	
+}
+
 h1,
 h2,
 h3,
@@ -778,7 +787,6 @@ h6 {
 
             {block:IfPlaceTimestampInLeftColumn}
             .post .caption {
-                width: 513px;
             }
             {/block:IfPlaceTimestampInLeftColumn}
 
