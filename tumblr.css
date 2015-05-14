@@ -692,7 +692,7 @@ text-decoration: none;
 				max-width: 600px;
                 color: #4C4C4C;
                 margin: 2em 60px 0 0;
-				padding-left 0;
+				padding-left: 0;
             }
 
             #posts .post {
