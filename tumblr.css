@@ -223,6 +223,10 @@ a:hover {
 text-decoration: underline;	
 }
 
+a.page_nav {
+	
+}
+
 h1,
 h2,
 h3,
@@ -448,14 +452,14 @@ h6 {
 .project ul li {
   display: inline;
 }
-.project ul li a {
+.page_nav {
   color: #fff;
   background: #ff4800;
   padding: 0.5%;
   margin: 0 2% 0 0;
   border: solid #ff4800;
 }
-.project ul li a:hover {
+.page_nav:hover {
   background: #fff;
   color: #ff4800;
 }
@@ -682,7 +686,6 @@ h6 {
 				max-width: 600px;
                 color: #4C4C4C;
                 margin: 2em 60px 0 0;
-                float: left;
             }
 
             #posts .post {
