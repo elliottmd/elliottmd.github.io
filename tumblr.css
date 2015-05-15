@@ -389,7 +389,60 @@ h6 {
   padding: 1%;
 }
 .sideblurb .l1 {
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  transition: all 0.1s ease;
   font-weight: 400;
+}
+.sideblurb .l1:hover {
+  color: #ff4800;
+}
+.sideblurb .growBar {
+  background: #bbb;
+  height: 0.2em;
+  width: 1%;
+  display: block;
+  margin-top: 2%;
+}
+.socialMedia {
+  margin-left: 20%;
+  margin-top: 10%;
+  height: 5%;
+  width: 60%;
+  position: absolute;
+}
+.socialMedia a {
+  border: none;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+  float: left;
+  margin-right: 10%;
+  height: 15%;
+  width: 15%;
+  opacity: 0.5;
+  fill: #000;
+}
+.socialMedia a:hover {
+  border: none;
+}
+.socialMedia #twitter:hover {
+  opacity: 1;
+  fill: #2aa9e0;
+}
+.socialMedia #instagram:hover {
+  opacity: 1;
+  fill: #ff4800;
+}
+.socialMedia #tumblr:hover {
+  opacity: 1;
+  fill: #35465d;
+}
+.socialMedia #linkedin:hover {
+  opacity: 1;
+  fill: #069;
 }
 #content {
   z-index: 3;
