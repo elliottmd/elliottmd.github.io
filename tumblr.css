@@ -196,20 +196,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-#nav a,
-#nav a:link,
-#nav a:visited {
-  border: solid transparent 0.2vw;
-  border-bottom: solid #ff4800 0.2vw;
-  color: #ff4800;
-  text-decoration: none;
-}
-#nav a:hover,
-#nav a:active,
-#nav a.selected {
-  border: solid #ff4800 0.2vw;
-  color: #ff4800;
-}
+
 
 a, a:link {
 color: #ff4800;	
@@ -452,59 +439,6 @@ h6 {
   width: 70%;
   padding-bottom: 2%;
 }
-.project {
-  width: auto;
-}
-.project .title {
-  font-size: 2em;
-  margin: 3% 0;
-}
-.project .banner {
-  width: 50%;
-  max-width: 400px;
-  margin: 0;
-}
-.project #projectblock {
-  display: flex;
-  display: -webkit-flex;
-  flex-flow: column nowrap;
-  -webkit-flex-flow: column nowrap;
-}
-.project #projectblock .row {
-  display: flex;
-  display: -webkit-flex;
-  flex-flow: row nowrap;
-  -webkit-flex-flow: row nowrap;
-  align-items: center;
-  align-content: center;
-  -webkit-align-items: center;
-  -webkit-align-content: center;
-}
-.project #projectblock .row img {
-  margin-top: 2em;
-  margin-right: 2%;
-}
-.project #projectblock .row img.full {
-  width: 100%;
-  max-width: 676px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.project #projectblock .row p {
-  font-size: 1.2em;
-  height: 100%;
-}
-.project ul {
-  list-style-type: none;
-  margin: 0;
-  text-align: left;
-  padding: 0;
-  font-size: 0.75em;
-  text-transform: uppercase;
-}
-.project ul li {
-  display: inline;
-}
 a.page_nav {
   color: #fff;
   background: #ff4800;
@@ -521,84 +455,6 @@ a.page_nav:hover {
   background: #fff;
 text-decoration: none;
   color: #ff4800;
-}
-.work {
-  display: flex;
-  display: -webkit-flex;
-  flex-flow: row wrap;
-  -webkit-flex-flow: row wrap;
-}
-.work .appspeaks {
-  background: #113d67;
-}
-.work .typeadventure {
-  background: #181a02;
-}
-.work .panorama {
-  background: #112368;
-}
-.work .mirko {
-  background: #f1592a;
-}
-.work .wristdaemon {
-  background: #c0262f;
-}
-.work .mercurio {
-  background: #08365c;
-}
-.work .strangerinastrangeland {
-  background: #1d2b3a;
-}
-.work .digitaro {
-  background: #21201e;
-}
-.work .apparators {
-  background: #000;
-}
-.work .arthistory {
-  background: #fff;
-}
-.work a {
-  margin: 1em;
-  min-width: 135px;
-  overflow: hidden;
-  position: relative;
-  display: inline;
-  -webkit-flex: 1 1 40%;
-  flex: 1 1 40%;
-  max-height: 200px;
-}
-.work a img {
-  display: block;
-  width: 100%;
-  max-width: 200px;
-  height: auto !important;
-  width: auto 9;
-  -ms-interpolation-mode: bicubic;
-  margin: auto auto auto auto;
-}
-.work a .info {
-  -webkit-transition: all 0.1s ease;
-  -moz-transition: all 0.1s ease;
-  -o-transition: all 0.1s ease;
-  transition: all 0.1s ease;
-  display: block;
-  opacity: 0;
-  background: rgba(0,0,0,0.6);
-  position: absolute;
-  font-size: 1.5vmax;
-  padding: 9%;
-  width: 100%;
-  overflow-y: auto;
-  bottom: 0;
-  max-height: 100%;
-}
-.work a .info .desc {
-  font-size: 0.8em;
-  font-weight: 300;
-}
-.work a:hover .info {
-  opacity: 1;
 }
 
 
